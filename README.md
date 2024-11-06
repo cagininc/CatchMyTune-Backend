@@ -12,7 +12,7 @@
 - **Docker** *(planned)* – For containerized deployment.
 - **CI/CD** with **GitHub Actions** *(planned)* – Ensures seamless updates and testing.
 ## Screenshots
-![Catch-My-Tune-Frontend](/uı-test.png)
+![Catch-My-Tune-Frontend](/ui-test.png)
 ## Vision
 
 Create a sophisticated tool for music enthusiasts and developers, bridging technology with audio analysis to unlock insights into any track's musical DNA.
