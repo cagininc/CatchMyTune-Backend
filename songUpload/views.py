@@ -4,6 +4,7 @@ from django.core.files.storage import default_storage
 from django.core.files.base import ContentFile
 from .models import Song
 from django.utils import timezone
+from song_analyze.tasks import analyze_song_task
 
 @csrf_exempt
 
@@ -25,11 +26,11 @@ def upload_song(request):
         )
         song_instance.save() #
             
-            
-            
+        #Start analyze process after saving the song
+        analyze_song_task.delay(song_instance.id)#celery 
             
        
         return JsonResponse({'message': "File uploaded successfully", "file_name": file.name})
 
-    # Eğer dosya yüklenmediyse veya POST isteği değilse hata dönülüyor
+    # error message 
     return JsonResponse({'error': "No file uploaded or incorrect request method"}, status=400)
