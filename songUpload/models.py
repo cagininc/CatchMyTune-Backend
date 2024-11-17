@@ -5,9 +5,11 @@ class Song(models.Model):
     artist=models.CharField(max_length=100)
     audio_file=models.FileField(upload_to='songs/')
     upload_date=models.DateTimeField( auto_now_add=True)
-    tempo=models.FloatField(null=True,blank=True)
+    tempo=models.IntegerField(null=True,blank=True)
     key=models.CharField(null=True,blank=True)
     spectrum=models.TextField(null=True,blank=True)
+    danceability = models.FloatField(null=True, blank=True)  # Danceability skoru
+
     is_analyzed=models.BooleanField(default=False)
     
     
