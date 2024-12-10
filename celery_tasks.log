@@ -56,3 +56,4 @@ INFO:realtime_analysis.consumers:WebSocket message sent to song_73: {'type': 'se
 2024-12-10 11:02:14,674 - INFO - WebSocket disconnected: song_77
 2024-12-10 11:02:25,409 - INFO - WebSocket connected: song_78
 2024-12-10 11:02:39,163 - INFO - WebSocket message sent to song_78: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': 'D/Bmin', 'duration': '4:03'}}
+2024-12-10 12:03:22,795 - INFO - WebSocket disconnected: song_78
