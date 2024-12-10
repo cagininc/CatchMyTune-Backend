@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - **Python** & **Django** – Backend framework for scalable API management.
-- **Spotify API** – For track metadata and real-time music analysis.
+- Django Channels is used in the Catch My Tune project to enable real-time WebSocket communication.
 - **Librosa** – Advanced audio analysis, including tempo, pitch, and spectral features.
 - **PostgreSQL** – Database for efficient, scalable data storage.
 - **Supabase** (PostgreSQL as a Service) – Cloud database hosting for high availability.
