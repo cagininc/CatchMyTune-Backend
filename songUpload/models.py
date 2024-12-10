@@ -8,7 +8,8 @@ class Song(models.Model):
     tempo=models.IntegerField(null=True,blank=True)
     key=models.CharField(null=True,blank=True)
     spectrum=models.TextField(null=True,blank=True)
-    danceability = models.FloatField(null=True, blank=True)  # Danceability skoru
+    danceability = models.IntegerField(null=True, blank=True)  # Danceability (if used)
+    duration =models.CharField(null=True,blank=True)
 
     is_analyzed=models.BooleanField(default=False)
     

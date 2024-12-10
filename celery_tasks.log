@@ -1,0 +1,59 @@
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+WARNING:django.request:Not Found: /favicon.ico
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/song_analyze/tasks.py changed, reloading.
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/songUpload/models.py changed, reloading.
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/songUpload/views.py changed, reloading.
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+WARNING:django.request:Not Found: /song/analysis/undefined
+INFO:django.utils.autoreload:/Users/caginince/Desktop/Backend-CatchMyTune/catch_my_tune/songUpload/views.py changed, reloading.
+WARNING:django.request:Not Found: /song/analysis/50
+WARNING:django.request:Not Found: /song/analysis/50
+WARNING:django.request:Not Found: /song/analysis/51
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /ws/analysis/66
+INFO:realtime_analysis.consumers:WebSocket connected: song_67
+INFO:realtime_analysis.consumers:WebSocket message sent to song_67: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_68
+INFO:realtime_analysis.consumers:WebSocket message sent to song_68: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_69
+INFO:realtime_analysis.consumers:WebSocket message sent to song_69: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_70
+INFO:realtime_analysis.consumers:WebSocket message sent to song_70: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_71
+INFO:realtime_analysis.consumers:WebSocket message sent to song_71: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_72
+INFO:realtime_analysis.consumers:WebSocket message sent to song_72: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+INFO:realtime_analysis.consumers:WebSocket connected: song_73
+INFO:realtime_analysis.consumers:WebSocket message sent to song_73: {'type': 'send_analysis_update', 'status': 'error', 'error': "can not serialize 'numpy.ndarray' object"}
+2024-12-10 10:56:22,997 - INFO - WebSocket connected: song_74
+2024-12-10 10:56:34,843 - INFO - WebSocket message sent to song_74: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': None, 'duration': '4:03'}}
+2024-12-10 10:58:24,383 - INFO - WebSocket disconnected: song_74
+2024-12-10 10:58:56,553 - INFO - WebSocket connected: song_75
+2024-12-10 10:58:58,884 - INFO - WebSocket message sent to song_75: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': None, 'duration': '4:03'}}
+2024-12-10 11:00:53,731 - INFO - WebSocket disconnected: song_75
+2024-12-10 11:01:10,957 - INFO - WebSocket connected: song_76
+2024-12-10 11:01:14,827 - INFO - WebSocket connected: song_77
+2024-12-10 11:01:15,680 - INFO - WebSocket message sent to song_76: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': None, 'duration': '4:03'}}
+2024-12-10 11:01:18,984 - INFO - WebSocket message sent to song_77: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': None, 'duration': '4:03'}}
+2024-12-10 11:02:14,656 - INFO - WebSocket disconnected: song_76
+2024-12-10 11:02:14,674 - INFO - WebSocket disconnected: song_77
+2024-12-10 11:02:25,409 - INFO - WebSocket connected: song_78
+2024-12-10 11:02:39,163 - INFO - WebSocket message sent to song_78: {'type': 'send_analysis_update', 'status': 'completed', 'results': {'tempo': 67.99958881578948, 'key': 'D/Bmin', 'duration': '4:03'}}
+2024-12-10 12:03:22,795 - INFO - WebSocket disconnected: song_78

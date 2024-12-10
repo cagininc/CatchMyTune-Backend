@@ -26,11 +26,16 @@ def upload_song(request):
         )
         song_instance.save() #
             
+            
+          #song_ıd control
+        print(f"Saved Song ID: {song_instance.id}")
+  
+            
         #Start analyze process after saving the song
         analyze_song_task.delay(song_instance.id)#celery 
             
        
-        return JsonResponse({'message': "File uploaded successfully", "file_name": file.name})
+        return JsonResponse({'message': "File uploaded successfully", "file_name": file.name,"song_id":song_instance.id})
 
     # error message 
     return JsonResponse({'error': "No file uploaded or incorrect request method"}, status=400)
